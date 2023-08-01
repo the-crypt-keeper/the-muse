@@ -57,12 +57,11 @@ The bear was confused and unsure of
 
 ``` The Arctic is warming, polar bear families and habitats shrinking
 <bot> Once, in a frozen Arctic far away from the bustling city lights of modern day civilization lived polar bear family, with one mom and her two adorable little ones, the young ones named Hibiki, a male and Maki a young girl, the mother, whose fur was as thick and soft, was named Yuko, the bear was getting hungry and so she decided that they should hunt some prey for their next feast, they would go hunting in a small cave nearby. They were able a long walk from the main land to get there. The bears entered
-Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
 ```
 
 ``` Polar Bears
 Once there lived polar bear in a land called Antarctis, he had been living with other polar bear friends. He lived a simple but comfortable lifestyle in a land of snow, sea ice and frozen land masses, and had been a polar bears best friends. He was known as a quiet and friendly polar bears and lived in the company with his best friend. One fine morning he was walking through his home, and noticed a stranger, he did know but was a stranger. The two of then had been walking through a large open space and saw many different species, and he noticed a different one, and saw that the new
-```Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+```
 
 ``` The Arctic
 Once, in a remote and icy region, there were a mother and a baby bear, and the bear mother decided that it would do well for the two to venture into a neighboring forest to hunt.
