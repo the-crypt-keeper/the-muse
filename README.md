@@ -69,3 +69,5 @@ One night the bear saw something in front. A man in red jacket, carrying somethi
 ``` The sun had risen high above a snow-crowned mount and shone down through a veil that was slowly being blown aside. A solitary polar fox stood at its base.
 The sun was warming his belly, but the bears' huddle of sleeping bodies around the hot spring had no need for such warmth as the water's heat would provide them with enough. The bears had grown used of this hot water, which was now flowing slower than ever before, as it had become so warm it no more retained heat than water itself, but had now turned to steam instead of a solid. The bear had no more use of this hot spring,
 ```
+
+See [more examples](https://www.reddit.com/r/LocalLLaMA/comments/15ffzw5/presenting_the_muse_a_logit_sampler_that_makes/) in the reddit post.
