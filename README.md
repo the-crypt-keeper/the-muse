@@ -58,11 +58,14 @@ The polar bears had always lived together in harmony. But today was a day of fir
 ```
 
 ``` Polar Bears: A Story
-Once, in a land called Antarctisia (which was the cold and icy frozen continent that surrounded all the other lands of Earth) there was once lived two bears. One bear, called Bear One was the son and grandson to two previous bears of that same species, who lived there for generations before them, as all of their family members did, with no notable event to mark them as special or exceptional, save perhaps their tendency for having very thick, furry, and very large, round ears, and a distinct lack in having a chin, as most polar bear bears have. The second of these```
+Once, in a land called Antarctisia (which was the cold and icy frozen continent that surrounded all the other lands of Earth) there was once lived two bears. One bear, called Bear One was the son and grandson to two previous bears of that same species, who lived there for generations before them, as all of their family members did, with no notable event to mark them as special or exceptional, save perhaps their tendency for having very thick, furry, and very large, round ears, and a distinct lack in having a chin, as most polar bear bears have. The second of these
+```
 
 ``` It is winter and a group polar bear has been living their life by a small island. The weather has become very bad, the sea ice is starting melting. They have to move north and start hunting seals again to keep them from getting starving to die in this new environment, and to give their babies the chance of growing. But it's so hard for the bear cub to cross through this new sea.
 
-One night the bear saw something in front. A man in red jacket, carrying something on the boat with a sail on top of the water, was crossing through this new ice and water, going to this small islet and```
+One night the bear saw something in front. A man in red jacket, carrying something on the boat with a sail on top of the water, was crossing through this new ice and water, going to this small islet and
+```
 
 ``` The sun had risen high above a snow-crowned mount and shone down through a veil that was slowly being blown aside. A solitary polar fox stood at its base.
-The sun was warming his belly, but the bears' huddle of sleeping bodies around the hot spring had no need for such warmth as the water's heat would provide them with enough. The bears had grown used of this hot water, which was now flowing slower than ever before, as it had become so warm it no more retained heat than water itself, but had now turned to steam instead of a solid. The bear had no more use of this hot spring,```
+The sun was warming his belly, but the bears' huddle of sleeping bodies around the hot spring had no need for such warmth as the water's heat would provide them with enough. The bears had grown used of this hot water, which was now flowing slower than ever before, as it had become so warm it no more retained heat than water itself, but had now turned to steam instead of a solid. The bear had no more use of this hot spring,
+```
