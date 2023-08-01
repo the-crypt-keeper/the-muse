@@ -6,7 +6,7 @@ To speed up iteration we experiment with [togethercomputer/RedPajama-INCITE-Chat
 
 # How does it work?
 
-The Muse is inserted into the typical logit processing chain, sitting between Temperature and TopK.  It's job is to make the output a little more creative by reducing the propabilities of the most probable tokens (parameter `top_k`) by a little bit (parameter `damp`).
+The Muse is essentially a top-k constrained temperature processor. It's inserted into the typical logit processing chain, sitting between Temperature and TopK.  It's job is to make the output a little more creative by reducing the propabilities of the most probable tokens (parameter `top_k`) by a little bit (parameter `damp`).
 
 ## Examples without Muse 
 
