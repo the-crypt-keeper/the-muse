@@ -4,6 +4,10 @@ This project implements `MuseLogitsWarper`, a simple logit processor that makes 
 
 To speed up iteration we experiment with [togethercomputer/RedPajama-INCITE-Chat-3B-v1](https://huggingface.co/togethercomputer/RedPajama-INCITE-Chat-3B-v1)
 
+# How does it work?
+
+The Muse is inserted into the typical logit processing chain, sitting between Temperature and TopK.  It's job is to make the output a little more creative by reducing the propabilities of the most propable tokens (parameter `top_k`) by a little bit (parameter `damp`).
+
 ## Examples without Muse 
 
 ```
