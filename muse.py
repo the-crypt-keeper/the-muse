@@ -40,7 +40,7 @@ from transformers.generation import TopPLogitsWarper, TopKLogitsWarper, Temperat
 
 logits_processor = LogitsProcessorList()
 logits_processor.append(TemperatureLogitsWarper(temperature=0.7))
-logits_processor.append(MuseLogitsWarper(top_k=1, damp=0.98))
+logits_processor.append(MuseLogitsWarper(top_k=1, damp=0.99))
 logits_processor.append(TopPLogitsWarper(top_p=0.7))
 logits_processor.append(TopKLogitsWarper(top_k=50))
 
