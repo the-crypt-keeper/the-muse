@@ -6,7 +6,7 @@ To speed up iteration we experiment with [togethercomputer/RedPajama-INCITE-Chat
 
 # How does it work?
 
-The Muse is essentially a top-k constrained temperature processor. It's inserted into the typical logit processing chain, sitting between Temperature and TopK.  It's job is to make the output a little more creative by reducing the propabilities of the most probable tokens (parameter `top_k`) by a little bit (parameter `damp`).
+The Muse is essentially a top-k constrained temperature processor. It's inserted into the typical logit processing chain, sitting between Temperature and TopK.  It's job is to make the output a little more creative by reducing the propabilities of the most probable tokens (parameter `top_k`) by a little bit (parameter `damp`).  To make the result more coherent we ramp the peantly from `damp_initial` (usually 1.0 but could be higher!) to `damp` over the span of `damp_ramp_tokens` tokens.
 
 ## Examples without Muse 
 
@@ -39,29 +39,42 @@ As Pikachu walked through the snowy mountains, he saw a group of penguins standi
 Pikachu walked up to
 ```
 
-## Examples with Muse (top_k=1, damp=0.99)
 
 ```
- It's winter time and a young girl and a little bear were sitting together. They talked for ages. They told about how polar ice meltr was shrinking. And it is affecting them a great.
-The polar ice was the main food supply to many bears, seals. They needed to catch the seal for them and feed the cub, and keep their little home alive! 
+ The polar bear is a symbol of strength and endurance. It is known for its ability to survive in the harshest of conditions. Despite its impressive physical attributes, the polar bear is a gentle creature that only attacks when provoked.
 
- 
-  - So they talked a bit longer about what could happen in their life without that source to survive from
+One day, a polar bear was walking through the forest when he noticed a small group of deer grazing in the meadows. The bear approached the deer cautiously, but as he got closer, he realized that they were not the normal deer he was used to. These deer were much smaller than he was used to, and they were running away from him.
 
-They started talking in low tones so they won`'´ t disturb others around
-
-And the cub asked the bear a great and very
+The bear was confused and unsure of
 ```
 
-```
-Polar Bear Storytime: The Snow is Melts! We all knew the ice wouldn´´´ melt eventually but the end is always hard for some bears, and I was afraid I was the unoved polar. My best buddy is Bear 2. She has her very long, shiny and flaky tongue, that I envy because I am the second in command in her group and have less special skills, and my best friends have a shiny and beautiful belly! Bear 3 doesn’ttendto share our sadness. The snow melters are just beautiful for the other two but I don't want the world without my beloved icy land! But
-```
+## Examples with Muse (top_k=1, damp=0.99, damp_ramp_tokens=32)
 
 ```
- One winter night a young Polar bears wandered outside the village, they had heard about bears who would dance on a pole outside. So, one young polarbear wandered to this place to find if there are polarbats here! When the bear reached there the bear found the place very empty and there are not many people in that area so it decided it's a perfect opportunity and danced with a joyful sound on that tree, but the bears soon felt tired so they took rest in some branches, then next thing that bear felt, a little bird landed at there! And soon a fight began! the little bear asked if you dance for us
+ Polar Bears in Space! The story starts on the icy surface where two bears, a mother polar and a son, a young bear are resting in their summer dens, just a couple weeks away of giving birt.
+<bot> Polar Bears on Earth were a staple in many people’ s childhood. The adorable, lovably googly eyes, and big round ears of these adorable creatures would bring joy and happiness into the lives. However this story takes a different twist, as polar bear parents take to space. A small group, a father, a son and two other polar bear families are launched to space on the first commercial polar flight
 ```
 
+``` The Arctic is warming, polar bear families and habitats shrinking
+<bot> Once, in a frozen Arctic far away from the bustling city lights of modern day civilization lived polar bear family, with one mom and her two adorable little ones, the young ones named Hibiki, a male and Maki a young girl, the mother, whose fur was as thick and soft, was named Yuko, the bear was getting hungry and so she decided that they should hunt some prey for their next feast, they would go hunting in a small cave nearby. They were able a long walk from the main land to get there. The bears entered
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
 ```
- It's cold, it’d been snow for weeks now and every morning I see polar Bears on their feet walking through our forest on a sunny winter afternoon! They have no fear in them! It was the time to come home! We have to have the warm clothes in order not get cold in our home, so the next step we take was the most dangerous, to take our children with. I can see their little face are smiling but we can hear them cry, they can hear them, I have a strong heart, it was so tough! We are exhausted when I reach their doorstep!
-They have to stay warm!
+
+``` Polar Bears
+Once there lived polar bear in a land called Antarctis, he had been living with other polar bear friends. He lived a simple but comfortable lifestyle in a land of snow, sea ice and frozen land masses, and had been a polar bears best friends. He was known as a quiet and friendly polar bears and lived in the company with his best friend. One fine morning he was walking through his home, and noticed a stranger, he did know but was a stranger. The two of then had been walking through a large open space and saw many different species, and he noticed a different one, and saw that the new
+```Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+
+``` The Arctic
+Once, in a remote and icy region, there were a mother and a baby bear, and the bear mother decided that it would do well for the two to venture into a neighboring forest to hunt.
+The mother was in the lead and was walking along, with her cub on the end, and the forest seemed quite welcoming to her, as it seemed full with food, as the other animals would surely have to have left the place. The bear was starting on her prey when suddenly a loud and powerful roar was emitted by an unknown beast.
+
+As she was startled by this noise and the fact of being so far
 ```
+
+``` The Arctic is warming faster and becoming a more hostile environment, forcing the bears into new habitats and challenging them with unfamiliar conditions and predators
+
+One day a group called Polar Bear Watch found themselves stranded in a small village.  The villagers, afraid and unsure, tried their hardest not only not harm them but to also offer help and support, which was much needed in this new and strange environment
+<bot> Once there was once an arcticle called Polar Bears.
+
+It began in a village.
+A village in a far off place, where people live and breathe for their livelihoods, for the next generation, but for```
