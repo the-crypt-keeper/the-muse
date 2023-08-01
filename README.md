@@ -6,7 +6,21 @@ To speed up iteration we experiment with [togethercomputer/RedPajama-INCITE-Chat
 
 # How does it work?
 
-The Muse is essentially a top-k constrained temperature processor. It's inserted into the typical logit processing chain, sitting between Temperature and TopK.  It's job is to make the output a little more creative by reducing the propabilities of the most probable tokens (parameter `top_k`) by a little bit (parameter `damp`).  To make the result more coherent we ramp the peantly from `damp_initial` (usually 1.0 but could be higher!) to `damp` over the span of `damp_ramp_tokens` tokens.
+The Muse is a stateful, top-k constrained temperature processor. It's inserted into the typical logit processing chain, sitting between Temperature and TopK.
+
+It's job is to make the output a little more creative by reducing the propabilities of the most probable tokens (parameter `top_k`) by a little bit (parameter `damp`).  To make the result more coherent we ramp the penalty from `damp_initial` (usually 1.0 but could be higher!) to `damp` over the span of the first `damp_ramp_tokens` tokens.
+
+# Some ideas on tuning the parameters
+
+`damp` is effectively `1/temperature` but applied to only the `top_k` logits.
+
+Keep `top_k` fairly low, probably single digits otherwise this logit processor essentially degenerates into Temperature.
+
+`damp_ramp_tokens` = 0 will skip straight to peak creativity which causes some really interesting generations but with a high chance of going off the rails.
+
+`damp_initial` > 1.0 may be interesting to explore.
+
+Theres no particular reason that damp > damp_initial, the ramp could very well run the other direction (start crazy and then get boring)
 
 ## Examples without Muse 
 
