@@ -51,29 +51,18 @@ The bear was confused and unsure of
 ## Examples with Muse (top_k=1, damp=0.99, damp_ramp_tokens=32)
 
 ```
- Polar Bears in Space! The story starts on the icy surface where two bears, a mother polar and a son, a young bear are resting in their summer dens, just a couple weeks away of giving birt.
-<bot> Polar Bears on Earth were a staple in many people’ s childhood. The adorable, lovably googly eyes, and big round ears of these adorable creatures would bring joy and happiness into the lives. However this story takes a different twist, as polar bear parents take to space. A small group, a father, a son and two other polar bear families are launched to space on the first commercial polar flight
+ It started as just any ordinary morning for the Polar bear, but soon, he found that he couldn’ t wake his friend the walruss.
+The polar bears had always lived together in harmony. But today was a day of first for the two of the them, they had never had a disagreement. 
+ The walrus woke the bear, saying, "We have a new baby, it’ s so small and it looks like a dot."
+ The walruses first statement caused a disagreement. "That is a silly statement. A walruses are never small, we’ re the largest in our group, we’
 ```
 
-``` The Arctic is warming, polar bear families and habitats shrinking
-<bot> Once, in a frozen Arctic far away from the bustling city lights of modern day civilization lived polar bear family, with one mom and her two adorable little ones, the young ones named Hibiki, a male and Maki a young girl, the mother, whose fur was as thick and soft, was named Yuko, the bear was getting hungry and so she decided that they should hunt some prey for their next feast, they would go hunting in a small cave nearby. They were able a long walk from the main land to get there. The bears entered
-```
+``` Polar Bears: A Story
+Once, in a land called Antarctisia (which was the cold and icy frozen continent that surrounded all the other lands of Earth) there was once lived two bears. One bear, called Bear One was the son and grandson to two previous bears of that same species, who lived there for generations before them, as all of their family members did, with no notable event to mark them as special or exceptional, save perhaps their tendency for having very thick, furry, and very large, round ears, and a distinct lack in having a chin, as most polar bear bears have. The second of these```
 
-``` Polar Bears
-Once there lived polar bear in a land called Antarctis, he had been living with other polar bear friends. He lived a simple but comfortable lifestyle in a land of snow, sea ice and frozen land masses, and had been a polar bears best friends. He was known as a quiet and friendly polar bears and lived in the company with his best friend. One fine morning he was walking through his home, and noticed a stranger, he did know but was a stranger. The two of then had been walking through a large open space and saw many different species, and he noticed a different one, and saw that the new
-```
+``` It is winter and a group polar bear has been living their life by a small island. The weather has become very bad, the sea ice is starting melting. They have to move north and start hunting seals again to keep them from getting starving to die in this new environment, and to give their babies the chance of growing. But it's so hard for the bear cub to cross through this new sea.
 
-``` The Arctic
-Once, in a remote and icy region, there were a mother and a baby bear, and the bear mother decided that it would do well for the two to venture into a neighboring forest to hunt.
-The mother was in the lead and was walking along, with her cub on the end, and the forest seemed quite welcoming to her, as it seemed full with food, as the other animals would surely have to have left the place. The bear was starting on her prey when suddenly a loud and powerful roar was emitted by an unknown beast.
+One night the bear saw something in front. A man in red jacket, carrying something on the boat with a sail on top of the water, was crossing through this new ice and water, going to this small islet and```
 
-As she was startled by this noise and the fact of being so far
-```
-
-``` The Arctic is warming faster and becoming a more hostile environment, forcing the bears into new habitats and challenging them with unfamiliar conditions and predators
-
-One day a group called Polar Bear Watch found themselves stranded in a small village.  The villagers, afraid and unsure, tried their hardest not only not harm them but to also offer help and support, which was much needed in this new and strange environment
-<bot> Once there was once an arcticle called Polar Bears.
-
-It began in a village.
-A village in a far off place, where people live and breathe for their livelihoods, for the next generation, but for```
+``` The sun had risen high above a snow-crowned mount and shone down through a veil that was slowly being blown aside. A solitary polar fox stood at its base.
+The sun was warming his belly, but the bears' huddle of sleeping bodies around the hot spring had no need for such warmth as the water's heat would provide them with enough. The bears had grown used of this hot water, which was now flowing slower than ever before, as it had become so warm it no more retained heat than water itself, but had now turned to steam instead of a solid. The bear had no more use of this hot spring,```
