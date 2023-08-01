@@ -35,6 +35,8 @@ class MuseLogitsWarper(LogitsWarper):
         dampened_values = scores * linear_damp
         scores.scatter_(-1, topk_indices, dampened_values)
 
+        self.token_num += 1
+
         return scores
 
 
