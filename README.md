@@ -73,7 +73,7 @@ Once upon a time, in the icy tundra of the North Pole, a polar bear and her cub 
 ```
 
 ```
- Once upon a time, there lived a polar bear named Nana. She was the oldest bear in the Arctic, with an age of 500 years, making her feel wiser than anyone else her age. As an expert polar bear, Nana could not understand what had led so many young bears to the city. It was because many had become disenchanted with her nature in this world where there are always options and compromises that make the most rational bear think he had become a polar bear trapped in a polar bear world.
+Once upon a time, there lived a polar bear named Nana. She was the oldest bear in the Arctic, with an age of 500 years, making her feel wiser than anyone else her age. As an expert polar bear, Nana could not understand what had led so many young bears to the city. It was because many had become disenchanted with her nature in this world where there are always options and compromises that make the most rational bear think he had become a polar bear trapped in a polar bear world.
 
 The polar bears had longed to go on adventures to new lands where bears of their nature roamed
 ```
@@ -100,4 +100,16 @@ Once upon a time, there was a polar bear named Baloo. Baloo was a very brave bea
 After several days in the pitch dark, Baloo suddenly found himself face to face with something very scary - a very angry witch with burning hat brim! "YOU ARE NOW E
 ```
 
-See [more examples](https://www.reddit.com/r/LocalLLaMA/comments/15ffzw5/presenting_the_muse_a_logit_sampler_that_makes/) in the reddit post.
+## Examples with Muse (top_k=3, damp=0.9, damp_ramp_tokens=0)
+
+```
+In a world without climate change, polar bears lived peacefully. Their arctic homes were safe from melting ice. Then a group of radical environmentalists got together and proposed the idea of banning fossil fuels in a move called "degrowth." Polar bears who once depended on melting ice for a hearty seal hunt had nothing but seaweed, algae, and lichen to survive. With nothing else to hunt, some polar bears starved or froze to death. Some had to swim long distances, carrying heavy blubber and fur for days to get to an island of green trees with plentiful fruits and leaves that made
+```
+
+```
+A young polar bear, Jens, grew up in a harsh Arctic habitat and knew all too well about the difficulties of his existence. In an effort to learn and improve, Jens trained himself on all aspects of Arctic life. As Jens aged, he gained an understanding of what life was like outside of his native region. One day, he met a man in New York, an anthropologist by the name of Edward. He and Edward began traveling across continents together, sharing their unique view of their shared habitat. During these adventures, Edward asked Jens about his knowledge of life on his northern continent. The two discussed the
+```
+
+```
+One chilly night, polar bears huddled near each other on the icy shores of their polar habitat. Their ears pricked for any noise or disturbance in the air above or under the water surrounding them. Their leader noticed movement from above the horizon in the direction of his home and raised their alarm. Soon enough, their keen ears caught the faint sound of an aircraft in the distance approaching the area. The bears slowly shifted from the position they had settled on. As one by one, their bodies began to lift above the snow. Soon a team of biologists landed nearby to capture one of the bears in the name of
+```
