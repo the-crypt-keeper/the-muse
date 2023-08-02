@@ -28,11 +28,11 @@ class MuseLogitsWarper(LogitsWarper):
     def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor) -> torch.FloatTensor:
         top_k = min(self.top_k, scores.size(-1))  # Safety check
 
-        ratio = 1.0 if self.damp_ramp_tokens == 0 else max(self.token_num/self.damp_ramp_tokens, 1.0)        
+        ratio = 1.0 if self.damp_ramp_tokens == 0 else min(self.token_num/self.damp_ramp_tokens, 1.0)        
         linear_damp = self.damp_initial + ratio*(self.damp - self.damp_initial) if ratio < 1.0 else self.damp
 
         topk_values, topk_indices = torch.topk(scores, top_k)
-        dampened_values = scores * linear_damp
+        dampened_values = topk_values * linear_damp
         scores.scatter_(-1, topk_indices, dampened_values)
 
         self.token_num += 1
@@ -51,7 +51,7 @@ from transformers.generation import TopPLogitsWarper, TopKLogitsWarper, Temperat
 
 logits_processor = LogitsProcessorList()
 logits_processor.append(TemperatureLogitsWarper(temperature=0.7))
-the_muse = MuseLogitsWarper(top_k=1, damp=0.99, damp_ramp_tokens=32)
+the_muse = MuseLogitsWarper(top_k=3, damp=0.9, damp_ramp_tokens=32)
 logits_processor.append(the_muse)
 logits_processor.append(TopPLogitsWarper(top_p=0.7))
 logits_processor.append(TopKLogitsWarper(top_k=50))

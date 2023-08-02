@@ -62,26 +62,42 @@ One day, a polar bear was walking through the forest when he noticed a small gro
 The bear was confused and unsure of
 ```
 
-## Examples with Muse (top_k=1, damp=0.99, damp_ramp_tokens=32)
+## Examples with Muse (top_k=3, damp=0.9, damp_ramp_tokens=32)
 
 ```
- It started as just any ordinary morning for the Polar bear, but soon, he found that he couldn’ t wake his friend the walruss.
-The polar bears had always lived together in harmony. But today was a day of first for the two of the them, they had never had a disagreement. 
- The walrus woke the bear, saying, "We have a new baby, it’ s so small and it looks like a dot."
- The walruses first statement caused a disagreement. "That is a silly statement. A walruses are never small, we’ re the largest in our group, we’
+Once upon a time, in a far-off land, there lived a polar bear named Yogi. Yogi was a very friendly bear. He lived alone in a beautiful Arctic land and was known for his kindness, his sense of humor, and his great intelligence. One day, Yogi had a vision: he saw the icebergs melting into the sea and he was terrified at how much ice and icebergs would disappear. This meant the ice would eventually break into tiny pieces and fall into the sea and become dangerous icebergs called glaciers. Glaciers could not melt into the sea. It needed to go in
 ```
 
-``` Polar Bears: A Story
-Once, in a land called Antarctisia (which was the cold and icy frozen continent that surrounded all the other lands of Earth) there was once lived two bears. One bear, called Bear One was the son and grandson to two previous bears of that same species, who lived there for generations before them, as all of their family members did, with no notable event to mark them as special or exceptional, save perhaps their tendency for having very thick, furry, and very large, round ears, and a distinct lack in having a chin, as most polar bear bears have. The second of these
+```
+Once upon a time, in the icy tundra of the North Pole, a polar bear and her cub were exploring the snowy mountains and hills near their Arctic habitat. As they moved slowly over the snow, they could sense something moving just ahead in the deep powder, as if someone had hidden beneath their own paws. As they cautiously advanced, their senses began to register an eerie feeling in the air and an icy gust blowing in their direction. It didn't take long until they discovered their mystery visitor - a large group of reindeer! As one of the adults turned toward them, their cub was terrified.
 ```
 
-``` It is winter and a group polar bear has been living their life by a small island. The weather has become very bad, the sea ice is starting melting. They have to move north and start hunting seals again to keep them from getting starving to die in this new environment, and to give their babies the chance of growing. But it's so hard for the bear cub to cross through this new sea.
+```
+ Once upon a time, there lived a polar bear named Nana. She was the oldest bear in the Arctic, with an age of 500 years, making her feel wiser than anyone else her age. As an expert polar bear, Nana could not understand what had led so many young bears to the city. It was because many had become disenchanted with her nature in this world where there are always options and compromises that make the most rational bear think he had become a polar bear trapped in a polar bear world.
 
-One night the bear saw something in front. A man in red jacket, carrying something on the boat with a sail on top of the water, was crossing through this new ice and water, going to this small islet and
+The polar bears had longed to go on adventures to new lands where bears of their nature roamed
 ```
 
-``` The sun had risen high above a snow-crowned mount and shone down through a veil that was slowly being blown aside. A solitary polar fox stood at its base.
-The sun was warming his belly, but the bears' huddle of sleeping bodies around the hot spring had no need for such warmth as the water's heat would provide them with enough. The bears had grown used of this hot water, which was now flowing slower than ever before, as it had become so warm it no more retained heat than water itself, but had now turned to steam instead of a solid. The bear had no more use of this hot spring,
+```
+Once upon a time, there was a polar bear named Paul. Paul was a big and strong polar bear with a shiny fur coat, large flippers for swimming, and a special white patch on his face. Paul had spent many years swimming through the cold, arctic seas, exploring for new prey and finding a cozy den to call home. He lived a carefree life among his Arctic companions and enjoyed hunting seals with his spear or bumbling into his favorite berry patch. He was a big teddy bear and his soft fur kept him warm on a winter morning in Alaska. However, the harshness of the polar environment would sometimes
+```
+
+```
+Once upon a time, there was a polar bear named Misha. Misha was a big and strong polar bear and he had a lot of experience on ice floes. His name is short for "migratory ice breaker." His favorite hobby was exploring the frozen ocean in search of fish to eat. One day, a young female polar bear was spotted wandering through the frozen landscape of the arctic.
+
+She was thin and weak, barely able to stand, her fur grayish-green from being trapped for so long, and the marks left from starvation. The sight of her caused an overwhelming rush of feelings inside M
+```
+
+```
+Once upon a time, there lived polar bears deep in the heart of the Arctic. These bears, who were the strongest in the icy land, spent the winter in a hidden ice cave and returned to the shore each spring for a summer of food and fresh water.
+
+Their domain stretched far into the ice fields that stretched far above, with a clear blue sky stretching over it and snow on its highest points. The sun shone brightly above their backs in an eternal and gentle dance across the frozen fields. Yet even on these bright sunny days, their cave was often covered in a thick fog of snow. This allowed them to see through these
+```
+
+```
+Once upon a time, there was a polar bear named Baloo. Baloo was a very brave bear. He would go anywhere and do anything he pleased. However, sometimes his actions got him into trouble. For example, when he ate some magic mushrooms that made him invisible! Now all he saw were his reflections and all around him was darkness and gloom. Baloo was confused and didn't know which way to go or which direction was up.
+
+After several days in the pitch dark, Baloo suddenly found himself face to face with something very scary - a very angry witch with burning hat brim! "YOU ARE NOW E
 ```
 
 See [more examples](https://www.reddit.com/r/LocalLLaMA/comments/15ffzw5/presenting_the_muse_a_logit_sampler_that_makes/) in the reddit post.
