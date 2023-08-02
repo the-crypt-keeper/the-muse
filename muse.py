@@ -20,12 +20,18 @@ class MuseLogitsWarper(LogitsWarper):
         self.damp = damp
         self.damp_initial = damp_initial
         self.damp_ramp_tokens = damp_ramp_tokens
-        self.token_num = 0
+        self.input_ids_length = None
 
     def reset(self):
+        print('the-muse has reset')
         self.token_num = 0
 
     def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor) -> torch.FloatTensor:
+        # reset if input suddenly decreases in length
+        if self.input_ids_length is None or self.input_ids_length > input_ids.size(-1):            
+            self.reset()
+        self.input_ids_length = input_ids.size(-1)
+
         top_k = min(self.top_k, scores.size(-1))  # Safety check
 
         ratio = 1.0 if self.damp_ramp_tokens == 0 else min(self.token_num/self.damp_ramp_tokens, 1.0)        
@@ -51,7 +57,7 @@ from transformers.generation import TopPLogitsWarper, TopKLogitsWarper, Temperat
 
 logits_processor = LogitsProcessorList()
 logits_processor.append(TemperatureLogitsWarper(temperature=0.7))
-the_muse = MuseLogitsWarper(top_k=3, damp=0.9, damp_ramp_tokens=32)
+the_muse = MuseLogitsWarper(top_k=3, damp=0.9, damp_ramp_tokens=0)
 logits_processor.append(the_muse)
 logits_processor.append(TopPLogitsWarper(top_p=0.7))
 logits_processor.append(TopKLogitsWarper(top_k=50))
@@ -78,6 +84,3 @@ for x in range(5):
     output_str = tokenizer.decode(token)
     print("---muse",x,"---")
     print(output_str)
-
-    # HACK: theres no way for a logit processor to know this.
-    the_muse.reset()
